@@ -31,7 +31,7 @@ To run **LexiFinder** locally:
 2. Navigate to the project directory::
 
    ```bash
-   git clone https://github.com/yourusername/LexiFinder.git
+   cd LexiFinder
    ```
 
 3. Open the index.html file in your browser
