@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexiFinder | Your ultimate word companion</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="main">
+        <!-- Popup for word not found -->
+         <div class="popup hide">
+            <p>Sorry pal, we couldn't find definitions for the word you were looking for.</p>
+         </div>
+
+        <div class="banner">
+            <img src="./assets/images/loupe.png" alt="">
+            <p>LexiFinder App</p>
+        </div>
+        <div class="menu hide">
+            <div class="nav-links">
+                <a href="#">Word of the Day</a>
+                <a href="#">History</a>
+                <a href="#">Thesarus</a>
+                <a href="#">Visual Aids</a>
+            </div>
+        </div>
+        <div class="offline">
+            📶<span>You are Offline</span>
+        </div>
+        <div class="header">
+            <span id="hamburger-menu">&#9776</span>
+            <!-- search -->
+                <form action="">
+                <input type="search" id="search" class="search" placeholder="Search Word">
+                <button type="submit" id="search-btn">Search</button>
+                </form>
+        </div>
+        <!--  -->
+        <div class="word-wrapper">
+            <div class="basic-info">
+                <h1 class="word" id="word">Word</h1>
+                <div><span class="audio" id="audio-player" draggable="false" contenteditable="false" >🔊</span><p class="phonetic" id="phonetic" >/Transcription/</p><audio style="display: inline; opacity: 0;" src="" id="audio"></audio></div>
+                <p class="message"></p>
+                <div class="part-of-speech-wrapper">
+                     <div class="message-wrapper">
+                        <span class="message-icon">📖</span>
+                        <p class="message-body">No word has been searched yet</p>
+                     </div>
+                     <div class="loading-container">
+                        <div class="loading">
+                        </div>
+                     </div>
+                    <div class="noun-container">
+                    </div>
+                    <div class="verb-container container">
+                    </div>
+                    <div class="adjective-container container">
+                    </div>
+                    <div class="pronoun-container container">
+                    </div>
+                    <div class="adverb-container container">
+                    </div>
+                    <div class="preposition-container container">
+                    </div>
+                    <div class="conjuction-container container">
+                    </div>
+                    <div class="interjection-container container">
+                    </div>
+                    <div class="article-container container">
+                    </div>
+                    <div class="determiner-container container">
+                    </div>
+                    <div class="exclamation-container container">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;2024 Abraham Bishop, CCTech</p>
+        </footer>
+    </div> <!-- Main End -->
+</body>
+<script src="./assets/script.js"></script>
+</html>
