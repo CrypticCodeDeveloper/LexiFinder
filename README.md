@@ -8,7 +8,7 @@
 - **Synonyms & Antonyms**: Discover related words and their opposites to build your vocabulary.
 - **Audio Pronunciations**: Listen to correct word pronunciations.
 - **Example Sentences**: Understand words in context with sample usage.
-- **Dynamic Search**: Responsive real-time search with clickable links for deeper exploration.
+- **Dynamic Search**: Click on antonyms or synonyms of words to search for in-depth meaning.
 - **Clean UI**: A user-friendly interface that works seamlessly across devices.
 
 ## Technologies Used
